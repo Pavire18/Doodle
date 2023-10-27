@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'doodle';
+    src: url('assets/fonts/comic-neue/ComicNeue-Regular.ttf');
+
+}
+
+body {
+    font-family: doodle;
+    margin: 0;
+    line-height:0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.options a{
+    font-weight: bold;
+}
+
+.nav-icon{
+    width: 20px;
+}
+
+.btn-connect{
+    background-color: #80b1ff;
+    color: white;
+    border-radius:150px;
+    border: 0;
+    border-bottom: 3px solid #6d96d8;
+    padding: 0px 15px 0px 15px;
+}
+
+.main-video video{
+    width: 100%;
+}
+
+.separator{
+    display: flex;
+    height: 40px;
+    background-color: #313a71;
+}
+
+.sing-up-content{
+    min-width: 1000px;
+}
+
+
+.sing-up-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #80b1ff;
+    margin: 0;
+}
+
+.sing-up-info p{
+    color: white;
+}
