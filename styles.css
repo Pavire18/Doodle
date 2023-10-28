@@ -1,13 +1,12 @@
 @font-face{
     font-family: 'doodle';
     src: url('assets/fonts/comic-neue/ComicNeue-Regular.ttf');
-
 }
 
 body {
     font-family: doodle;
     margin: 0;
-    line-height:0;
+    background-color: #99e2ff;
 }
 
 a{
@@ -15,18 +14,25 @@ a{
     color: black;
 }
 
+button{
+    font-family: doodle;
+}
+
+header{
+    padding: 0 300px 0 300px;
+    background-color: white;
+}
+
 
 .options{
     display: flex;
-    justify-content: center;
-    gap: 5%;
-    margin-top: 40px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    justify-content: space-around;
+    padding:  15px 0;
+
 }
 
 .options a{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .nav-icon{
@@ -42,8 +48,47 @@ a{
     padding: 0px 15px 0px 15px;
 }
 
+
+.main-video{
+    position: relative;
+    margin: 0;
+}
+
+
 .main-video video{
+    display: flex;
     width: 100%;
+}
+
+
+
+.comming-soon-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 660px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+
+.comming-soon-logo{
+    width: 400px;
+}
+
+.comming-soon-text{
+    width: 250px;
+}
+
+.btn-trailer{
+    border: 2px solid #5086dc;
+    border-bottom: 4px solid #5086dc;
+    border-radius: 7px;
+    margin-top: 300px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    width: 150px;
 }
 
 .separator{
@@ -58,11 +103,148 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 60px;
     background-color: #80b1ff;
     margin: 0;
+    padding: 10px 250px 10px 250px;
+
 }
 
 .sing-up-info p{
     color: white;
+    margin: 0;
+}
+
+
+.email-box{
+    border: 0;
+    border-radius: 7px;
+    padding: 5px;
+    width: 200px;
+}
+
+.send-email{
+    border-radius: 7px;
+    border: 0;
+    color: #6d96d8;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 365px 100px 350px;
+}
+
+.app-info{
+    margin-top: 150px;
+    margin-left: -120px;
+}
+
+.app-text1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.app-text2{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.app-mock{
+    height: 600px;
+}
+
+
+.genesis-box{
+    display: flex;
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+}
+.genesis-box-img{
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.genesis-box-gif{
+    width: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.genesis-box-info{
+    padding: 75px 30px 30px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.genesis-box-promo{
+    width: 500px;
+}
+
+.genesis-box-text1{
+    color: white;
+    width: 500px;
+    font-weight: bold;
+
+}
+
+.buy-opensea{
+    display: block;
+    background-color: #80b1ff;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.learn-more{
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+
+.new-stand-title{
+    display: block;
+    width: 250px;
+    margin: 50px auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 270px;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
+.card img{
+    width: 100%;
+    height: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card-text{
+    background-color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
 }
